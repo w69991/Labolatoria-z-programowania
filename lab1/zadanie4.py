@@ -1,4 +1,5 @@
 print("Szacowanie zużycia paliwa i kosztu podrozy")
+
 d = (float(input("Podaj długość drogi: ")))
 x = (float(input("Podaj srednie spalanie paliwa w litrach na 100km: ")))
 

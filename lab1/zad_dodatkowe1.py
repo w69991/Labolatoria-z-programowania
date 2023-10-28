@@ -1,4 +1,5 @@
 print("Rozwiazywanie rownan liniowych 0=ax+b")
+
 a = (int(input("Podaj a: ")))
 b = (int(input("Podaj b: ")))
 
