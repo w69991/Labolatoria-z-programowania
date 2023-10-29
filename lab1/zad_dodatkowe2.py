@@ -1,4 +1,4 @@
-print("Obliczanie pola trójkąta o podanych bokach a,b,c")
+print("Obliczanie pola trojkata o podanych bokach a,b,c")
 
 a = (int(input("Podaj bok a: ")))
 b = (int(input("Podaj bok b: ")))

@@ -7,7 +7,7 @@ d = random.randint(1, 100000)
 
 zuzycie = d*x/100
 
-print(f"Przewidywane zużycie paliwa na drodze {d} km to: {round(zuzycie, 2)} l")
+print(f"Przewidywane zuzycie paliwa na drodze {d} km to: {round(zuzycie, 2)} l")
 
 koszt = zuzycie*6.5
 
