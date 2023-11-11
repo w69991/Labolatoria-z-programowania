@@ -7,9 +7,11 @@ if a > b:
     while a >= b:
         print(b)
         b += 1
-else:
+    print("Koniec")
+elif b > a:
     while b >= a:
         print(a)
         a += 1
-
-print("Koniec")
+    print("Koniec")
+else:
+    print("Nie mozna odliczyc")
