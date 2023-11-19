@@ -8,7 +8,7 @@ elif b > a:
     x = b
     y = a
 
-while x >= b:
-    iloczyn = iloczyn * b
-    b += 1
+while x >= y:
+    iloczyn = iloczyn * y
+    y += 1
 print(f"Iloczyn jest równy {iloczyn}")

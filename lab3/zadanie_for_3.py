@@ -1,6 +1,9 @@
-a = int(input("Podaj wysokosc choinki: "))
+wysokosc = int(input("Podaj wysokosc choinki: "))
 
-for gwiazdka in range(a):
-    print((gwiazdka + 1) * "* ")
+for gwiazdka in range(1, wysokosc+1):
+    print((gwiazdka) * "* ")
 
-#for gwiazdka in range()
+for i in range(1, wysokosc+1):
+    gwiazdka = "* " * i
+    spacja = " " * (wysokosc - i)
+    print(spacja + gwiazdka)
