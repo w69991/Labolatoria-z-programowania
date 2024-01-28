@@ -47,9 +47,11 @@ nowy_uczeń = pd.DataFrame([[60013, 'Julia', 'Bar', 21, 3.5]],
 df = pd.concat([df, nowy_uczeń], ignore_index=True) #ignore_index żeby indexy zostały zresetowane
 print(df)
 print()
+
 #h
 unikalne_wartości = df['Ocena'].unique()
 print("Unikalne oceny to:", (unikalne_wartości))
+
 #i
 oceny_5 = df['Ocena'].value_counts().get(5.0, 0)
 print("Liczba uczniów z ocenami 5.0: ", oceny_5)
