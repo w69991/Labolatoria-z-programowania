@@ -24,8 +24,8 @@ print("Średnia wieku dla osób z 3.5: ", df1.groupby('Ocena').get_group(3.5)['W
 print("Średnia wieku dla osób z 3.0: ", df1.groupby('Ocena').get_group(3.0)['Wiek'].mean())
 print("Średnia wieku dla osób z 2.0: ", df1.groupby('Ocena').get_group(2.0)['Wiek'].mean())
 print()
-#d
 
+#d
 poprawa = {'Nr_albumu': [60042, 60023],
  'Ocena': [4.0, 5.0]}
 df2 = pd.DataFrame(poprawa)
@@ -35,8 +35,10 @@ df2.set_index('Nr_albumu', inplace=True)
 df1.update(df2)
 print(df1)
 print()
+
 #e
 df1.to_csv('oceny_z_kolokwium')
+
 #f
 df = pd.read_csv('oceny_z_kolokwium')
 print(df)

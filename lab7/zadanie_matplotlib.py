@@ -55,5 +55,4 @@ plt.title('Oceny z poszczególnych terminów')
 plt.xlabel('Imię')
 plt.ylabel('Ocena')
 plt.legend()
-
 plt.show()
